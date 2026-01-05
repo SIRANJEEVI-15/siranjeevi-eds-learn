@@ -41,7 +41,7 @@
   display: inline-block;
   margin-top: 12px;
   color: white;
-  background: #0055ff;
+  background: #b3c1de;
   padding: 8px 16px;
   text-decoration: none;
   border-radius: 4px;
@@ -49,5 +49,5 @@
 }
 
 .teaser-cta:hover {
-  background: #0044cc;
+  background: #8fa2ca;
 }
