@@ -13,8 +13,8 @@ export default function decorate(block) {
   // Build the heading component
   const headingWrapper = div(
     { class: 'heading-wrapper' },
-    mainHeading ? h2({ class: 'heading-main' }, mainHeading) : null,
-    subHeading ? p({ class: 'heading-sub' }, subHeading) : null
+    subHeading ? p({ class: 'heading-sub' }, subHeading) : '',
+    mainHeading ? h2({ class: 'heading-main' }, mainHeading) : ''
   );
 
   // Append to block

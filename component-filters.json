@@ -18,7 +18,8 @@
       "quote",
       "teaser",
       "fragment",
-      "carousel-heading"
+      "carousel-heading",
+      "carousel-card"
     ]
   },
   {
@@ -30,6 +31,12 @@
   {
     "id": "carousel-heading",
     "components": []
+  },
+  {
+    "id": "carousel-card",
+    "components": [
+      "carousel-card-item"
+    ]
   },
   {
     "id": "columns",
