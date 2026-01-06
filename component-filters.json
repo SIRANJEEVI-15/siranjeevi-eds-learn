@@ -25,6 +25,10 @@
     ]
   },
   {
+    "id": "carousel-heading",
+    "components": []
+  },
+  {
     "id": "columns",
     "components": [
       "column"
@@ -38,9 +42,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "heading",
-    "components": []
   }
 ]
