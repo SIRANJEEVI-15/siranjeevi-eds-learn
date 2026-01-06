@@ -33,7 +33,7 @@
   ],
   "models": [
     {
-      "id": "carousel-card-item",
+      "id": "carousel-card",
       "fields": [
         {
           "component": "reference",

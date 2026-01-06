@@ -15,11 +15,7 @@
       "hero",
       "cards",
       "columns",
-      "quote",
-      "teaser",
-      "fragment",
-      "carousel-heading",
-      "carousel-card"
+      "fragment"
     ]
   },
   {
@@ -29,14 +25,14 @@
     ]
   },
   {
-    "id": "carousel-heading",
-    "components": []
-  },
-  {
     "id": "carousel-card",
     "components": [
       "carousel-card-item"
     ]
+  },
+  {
+    "id": "carousel-heading",
+    "components": []
   },
   {
     "id": "columns",
