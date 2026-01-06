@@ -38,5 +38,10 @@
       ]
     }
   ],
-  "filters": []
+  "filters": [
+    {
+      "id": "heading",
+      "components": []
+    }
+  ]
 }
