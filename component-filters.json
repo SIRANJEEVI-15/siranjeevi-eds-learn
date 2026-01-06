@@ -26,18 +26,6 @@
     ]
   },
   {
-    "id": "carousel-card",
-    "components": [
-      "carousel-card-item"
-    ]
-  },
-  {
-    "id": "carousel-heading",
-    "components": [
-      "carousel-item"
-    ]
-  },
-  {
     "id": "carousel",
     "components": [
       "cards"
