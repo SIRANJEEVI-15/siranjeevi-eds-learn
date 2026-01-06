@@ -40,14 +40,12 @@
           "component": "text",
           "valueType": "string",
           "name": "mainHeading",
-          "value": "",
           "label": "Main Heading"
         },
         {
           "component": "text",
           "valueType": "string",
           "name": "subHeading",
-          "value": "",
           "label": "Sub Heading"
         }
       ]
