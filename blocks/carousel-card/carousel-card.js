@@ -1,9 +1,11 @@
-import { div, h3, p, img } from '../../scripts/dom-helpers.js';
+import {
+  div, h3, img,
+} from '../../scripts/dom-helpers.js';
 
 export default function decorate(block) {
   // Extract all card data from child divs
   const children = Array.from(block.children);
-  
+
   // Clear existing content
   block.innerHTML = '';
 
@@ -14,8 +16,7 @@ export default function decorate(block) {
   children.forEach((child) => {
     const cardChildren = Array.from(child.children);
     // console.log("child", child);
-    
-    
+
     const imageUrl = cardChildren[0]?.querySelector('img')?.src || '';
     const title = cardChildren[1]?.textContent?.trim() || '';
     const description = cardChildren[2]?.innerHTML || '';
@@ -25,13 +26,13 @@ export default function decorate(block) {
       { class: 'carousel-card' },
       imageUrl ? div(
         { class: 'carousel-card-image' },
-        img({ src: imageUrl, alt: title, loading: 'lazy' })
-      ) : "",
+        img({ src: imageUrl, alt: title, loading: 'lazy' }),
+      ) : '',
       div(
         { class: 'carousel-card-content' },
-        title ? h3({ class: 'carousel-card-title' }, title) : "",
-        description ? div({ class: 'carousel-card-description', innerHTML: description }) : ""
-      )
+        title ? h3({ class: 'carousel-card-title' }, title) : '',
+        description ? div({ class: 'carousel-card-description', innerHTML: description }) : '',
+      ),
     );
 
     cardsContainer.append(card);

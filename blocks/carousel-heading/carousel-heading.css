@@ -22,7 +22,7 @@
 }
 
 /* Tablet and mobile */
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .heading-main {
     font-size: 2rem;
   }
@@ -32,7 +32,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
   .heading-wrapper {
     padding: 30px 15px;
   }
