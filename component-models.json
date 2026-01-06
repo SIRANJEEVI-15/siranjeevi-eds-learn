@@ -213,6 +213,28 @@
     ]
   },
   {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title"
+      }
+    ]
+  },
+  {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "card-title",
+        "label": "Card Title"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {

@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "carousel-heading"
+      "carousel-heading",
+      "carousel"
     ]
   },
   {
@@ -35,6 +36,12 @@
     "id": "carousel-heading",
     "components": [
       "carousel-item"
+    ]
+  },
+  {
+    "id": "carousel",
+    "components": [
+      "cards"
     ]
   },
   {
