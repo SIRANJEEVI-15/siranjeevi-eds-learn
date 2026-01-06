@@ -55,38 +55,6 @@
               }
             }
           }
-        },
-        {
-          "title": "Quote",
-          "id": "quote",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Quote",
-                  "model": "quote",
-                  "quote": "<p>Think, McFly! Think!</p>",
-                  "author": "Biff Tannen"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Teaser",
-          "id": "teaser",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Teaser",
-                  "model": "teaser"
-                }
-              }
-            }
-          }
         }
       ]
     },
@@ -145,6 +113,36 @@
           }
         },
         {
+          "title": "Carousel Card",
+          "id": "carousel-card",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Carousel Card",
+                  "filter": "carousel-card"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Card Item",
+          "id": "carousel-card-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Card Item",
+                  "model": "carousel-card-item"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Carousel Heading",
           "id": "carousel-heading",
           "plugins": {
@@ -155,6 +153,21 @@
                   "name": "Carousel Heading",
                   "model": "carousel-heading",
                   "filter": "carousel-heading"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Banner Carousel Item",
+          "id": "banner-carousel-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Banner Carousel Item",
+                  "model": "banner-carousel-item"
                 }
               }
             }
