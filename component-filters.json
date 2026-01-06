@@ -34,7 +34,7 @@
   {
     "id": "carousel-heading",
     "components": [
-      "banner-carousel-item"
+      "carousel-item"
     ]
   },
   {
